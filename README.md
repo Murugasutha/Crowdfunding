@@ -19,3 +19,12 @@ This platform is currently under development and aims to provide a seamless crow
 - 🔹 **Engaging UI** – A sleek, intuitive design with a **blue-themed** interface for an enhanced user experience.  
 
 🚀 Contributions, feedback, and suggestions are welcome!
+
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

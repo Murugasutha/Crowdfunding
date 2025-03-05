@@ -1,0 +1,137 @@
+nav{
+    width: 100%;
+    background: none;
+    padding: 4px 0;
+    transition: 0.5s;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.navbar{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    margin: 5px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: #11998e;
+}
+
+.loginbtn{
+    background: #fff;
+    color: #212121;
+    padding: 5px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-color: lightgreen;
+}
+
+.loginbtn:hover{
+    background: #11998e;  
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
+    background: linear-gradient(to right, #38ef7d, #11998e); 
+    color: #fff;
+}
+
+.btn{
+    background: #11998e;  
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
+    background: linear-gradient(to right, #38ef7d, #11998e); 
+    color: #fff;
+    padding: 5px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #212121;
+    border-color: lightgreen;
+}
+
+.toggle-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.search-box{
+    display:flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.search-box input{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.search-box input::placeholder{
+    color: #fff;
+}
+
+.search-box img{
+    width: 20px;
+    cursor: pointer;
+}
+
+.darknav{
+    background: #f2f8f8;
+    transition: 0.5s;
+}
+
+/* Dark mode css */
+
+.dark.navbar{
+    background: none;
+    color: #fff;
+}
+
+.dark.navbar .search-box{
+    background: #fff;
+}
+
+.dark.navbar .search-box input{
+    color: #222;
+}
+
+.dark.navbar .search-box input::placeholder{
+    color: #222;
+}
+
+.dark.darknav{
+    background: #000;
+}

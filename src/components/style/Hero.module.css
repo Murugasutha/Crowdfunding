@@ -1,0 +1,71 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    background-position: center;
+    color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.text{
+    color: #000;
+    text-align: center;
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+.text .button{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.blackText {
+    color: black;
+    transition: 0.5s;
+}
+
+.greenText {
+    color: #0d857b;
+    transition: 0.5s;
+}
+
+
+/* Dark theme */
+
+.hero.dark  {
+    background: #212121;
+    color: white;
+}
+
+.dark .text{
+    color: #fff;
+}
+
+.dark .blackText{
+    color: #fff;
+}
+
+.dark .greenText{
+    color: #38ef7d;
+}
